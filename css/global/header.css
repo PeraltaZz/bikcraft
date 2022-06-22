@@ -19,9 +19,9 @@
 
 .header-menu a {
     padding: 16px 0px;
-    display: inline-block;   
+    display: inline-block;
     position: relative;
- 
+
 
 }
 
@@ -74,4 +74,11 @@
         padding: 8px 12px;
         font-size: 14px;
     }
+}
+
+@media(max-width:500px) {
+    .header {
+        justify-content: center;
+    }
+
 }
