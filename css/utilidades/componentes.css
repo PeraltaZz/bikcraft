@@ -59,3 +59,24 @@
     background-color: var(--cor-9);
     
 }
+
+.titulo-bg{
+    padding: 60px 0px;
+    background-color: var(--cor-11);
+    
+}
+
+.titulo p{
+    margin-bottom: 4px;
+}
+
+@media(max-width:800px){
+    .titulo-bg{
+        padding: 40px 0px;
+    }
+
+    .titulo p{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
