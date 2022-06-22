@@ -8,6 +8,7 @@
 
 @import"./home/introducao.css";
 @import"./bicicletas/bicicletas-lista.css";
+@import"./bicicletas/bicicletas.css";
 @import"./home/tecnologia.css";
 @import"./home/parceiros.css";
 @import"./home/depoimento.css";
