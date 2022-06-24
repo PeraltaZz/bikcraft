@@ -14,7 +14,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
+  <script>document.documentElement.classList.add("js");</script>
 </head>
+
 
 <body>
   <header class="header-bg">
@@ -32,16 +34,16 @@
       </nav>
     </div>
   </header>
-  <main class="introducao-bg">
+  <main class="introducao-bg" >
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl cor-0">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
-        <p class="font-2-l cor-5">
+        <h1 data-anime="200" class="font-1-xxl cor-0 fadeInDown">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+        <p data-anime="400" class="font-2-l cor-5 fadeInDown">
           Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.
         </p>
-        <a class="botao" href="./bicicletas.html">Escolha a Sua</a>
+        <a data-anime="600" class="botao fadeInDown" href="./bicicletas.html">Escolha a Sua</a>
       </div>
-      <picture>
+      <picture data-anime="800" class="fadeInDown">
         <source media="(max-width:800px)" srcset="./img/bicicletas/nimbus.jpg">
         <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta Elétrica Preta">
       </picture>
@@ -49,7 +51,7 @@
   </main>
 
   <article class="bicicletas-lista">
-    <h2 class=" container font-1-xxl">escolha a sua<span class="cor-p1">.</span>
+    <h2 class=" container font-1-xxl">Escolha a sua<span class="cor-p1">.</span>
     </h2>
     <ul>
       <li>
@@ -67,7 +69,7 @@
           <span class="font-2-m cor-8">R$ 4999</span>
         </a>
       </li>
-      
+
       <li>
         <a href="./bicicletas/nebula.html">
           <img src="./img/bicicletas/nebula-home.jpg" width="920" height="1040" alt="Bicicleta Preta">
@@ -83,7 +85,7 @@
     <div class="tecnologia container">
       <div class="tecnologia-conteudo">
         <span class="font-2-l-b cor-5">Tecnologia Avançada</span>
-        <h2 class="font-1-xxl cor-0">você escolhe as suas cores e componentes<span class="cor-p1">.</span></h2>
+        <h2 class="font-1-xxl cor-0">Você escolhe as suas cores e componentes<span class="cor-p1">.</span></h2>
         <p class="font-2-l cor-5">
           Cada Bikcraft é única e possui a sua identidade. As medidas serão exatas para o seu corpo e altura, garantindo maior conforto e ergonomia na sua pedalada. Você pode também personalizar completamente as suas cores.
         </p>
@@ -110,7 +112,7 @@
   </article>
 
   <section class="parceiros" aria-label="Nosos Parceiros">
-    <h2 class=" container font-1-xxl">nossos parceiros<span class="cor-p1">.</span></h2>
+    <h2 class=" container font-1-xxl">Nossos parceiros<span class="cor-p1">.</span></h2>
 
     <ul>
       <li><img src="./img/parceiros/caravan.svg" alt="Caravan" width="140" height="38"></li>
@@ -142,7 +144,7 @@
 
   <article class="seguros-bg">
     <div class="seguros container">
-      <h2 class="font-1-xxl cor-0">seguros<span class="cor-p1">.</span>
+      <h2 class="font-1-xxl cor-0">Seguros<span class="cor-p1">.</span>
       </h2>
 
       <div class="seguros-item">
@@ -214,9 +216,8 @@
     </div>
   </footer>
 
-
-
-
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
